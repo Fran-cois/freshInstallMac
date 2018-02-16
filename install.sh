@@ -3,11 +3,11 @@ echo "Tout installer ? (y/n)"
 read ALL
 #############  Installation de brew  ####################
 if [ "$ALL" == "y" ];then
-#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 #############  Installation de wget  ####################
 if [ "$ALL" == "y" ];then
-#brew install wget
+brew install wget
 fi
 
 #############  Creation de dossier tmp  ####################
